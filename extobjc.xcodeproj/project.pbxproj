@@ -81,10 +81,10 @@
 		DD5B112D1D4B7052009FD1B9 /* libextobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = DD5B112C1D4B7052009FD1B9 /* libextobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD5B11321D4B7061009FD1B9 /* EXTADT.h in Headers */ = {isa = PBXBuildFile; fileRef = D005F01815950509007A8A1C /* EXTADT.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD5B11331D4B7061009FD1B9 /* EXTConcreteProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D005F01F15950509007A8A1C /* EXTConcreteProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD5B11341D4B7061009FD1B9 /* EXTCoroutine.h in Headers */ = {isa = PBXBuildFile; fileRef = D005F02115950509007A8A1C /* EXTCoroutine.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DD5B11341D4B7061009FD1B9 /* EXTCoroutine.h in Headers */ = {isa = PBXBuildFile; fileRef = D005F02115950509007A8A1C /* EXTCoroutine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD5B11351D4B7061009FD1B9 /* EXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = D005F02615950509007A8A1C /* EXTKeyPathCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD5B11361D4B7061009FD1B9 /* EXTNil.h in Headers */ = {isa = PBXBuildFile; fileRef = D005F02C15950509007A8A1C /* EXTNil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD5B11371D4B7061009FD1B9 /* EXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = D005F03415950509007A8A1C /* EXTRuntimeExtensions.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DD5B11371D4B7061009FD1B9 /* EXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = D005F03415950509007A8A1C /* EXTRuntimeExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD5B11381D4B7061009FD1B9 /* EXTSafeCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = D005F03615950509007A8A1C /* EXTSafeCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD5B11391D4B7061009FD1B9 /* EXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = D005F03815950509007A8A1C /* EXTScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD5B113A1D4B7061009FD1B9 /* EXTSelectorChecking.h in Headers */ = {isa = PBXBuildFile; fileRef = D09FB2F5159A41C400A5F6A4 /* EXTSelectorChecking.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -92,7 +92,7 @@
 		DD5B113C1D4B7061009FD1B9 /* NSInvocation+EXT.h in Headers */ = {isa = PBXBuildFile; fileRef = D005F03F15950509007A8A1C /* NSInvocation+EXT.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD5B113D1D4B7061009FD1B9 /* NSMethodSignature+EXT.h in Headers */ = {isa = PBXBuildFile; fileRef = D005F04115950509007A8A1C /* NSMethodSignature+EXT.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD5B113E1D4B7061009FD1B9 /* extobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = D005F02F15950509007A8A1C /* extobjc.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		DD5B113F1D4B7061009FD1B9 /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = D005F03E15950509007A8A1C /* metamacros.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DD5B113F1D4B7061009FD1B9 /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = D005F03E15950509007A8A1C /* metamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD5B11401D4B7074009FD1B9 /* EXTADT.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EF9BFE15992F080066DFBC /* EXTADT.m */; };
 		DD5B11411D4B7074009FD1B9 /* EXTConcreteProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = D005F02015950509007A8A1C /* EXTConcreteProtocol.m */; };
 		DD5B11421D4B7074009FD1B9 /* EXTNil.m in Sources */ = {isa = PBXBuildFile; fileRef = D005F02D15950509007A8A1C /* EXTNil.m */; };
@@ -499,6 +499,9 @@
 				DD5B11321D4B7061009FD1B9 /* EXTADT.h in Headers */,
 				DD5B11331D4B7061009FD1B9 /* EXTConcreteProtocol.h in Headers */,
 				DD5B11351D4B7061009FD1B9 /* EXTKeyPathCoding.h in Headers */,
+				DD5B11341D4B7061009FD1B9 /* EXTCoroutine.h in Headers */,
+				DD5B11371D4B7061009FD1B9 /* EXTRuntimeExtensions.h in Headers */,
+				DD5B113F1D4B7061009FD1B9 /* metamacros.h in Headers */,
 				DD5B11361D4B7061009FD1B9 /* EXTNil.h in Headers */,
 				DD5B11381D4B7061009FD1B9 /* EXTSafeCategory.h in Headers */,
 				DD5B11391D4B7061009FD1B9 /* EXTScope.h in Headers */,
@@ -506,10 +509,7 @@
 				DD5B113B1D4B7061009FD1B9 /* EXTSynthesize.h in Headers */,
 				DD5B113C1D4B7061009FD1B9 /* NSInvocation+EXT.h in Headers */,
 				DD5B113D1D4B7061009FD1B9 /* NSMethodSignature+EXT.h in Headers */,
-				DD5B11341D4B7061009FD1B9 /* EXTCoroutine.h in Headers */,
-				DD5B11371D4B7061009FD1B9 /* EXTRuntimeExtensions.h in Headers */,
 				DD5B113E1D4B7061009FD1B9 /* extobjc.h in Headers */,
-				DD5B113F1D4B7061009FD1B9 /* metamacros.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1098,6 +1098,7 @@
 				DD5B11301D4B7052009FD1B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
