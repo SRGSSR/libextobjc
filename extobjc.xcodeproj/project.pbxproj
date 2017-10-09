@@ -774,7 +774,6 @@
 				GCC_PREFIX_HEADER = extobjc/extobjc_Prefix.pch;
 				INSTALL_PATH = /usr/local/lib;
 				PRODUCT_NAME = extobjc_OSX;
-				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -785,7 +784,6 @@
 				GCC_PREFIX_HEADER = extobjc/extobjc_Prefix.pch;
 				INSTALL_PATH = /usr/local/lib;
 				PRODUCT_NAME = extobjc_OSX;
-				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -794,14 +792,11 @@
 			baseConfigurationReference = D0919C4F146F99B900D680C9 /* Debug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = NO;
 				GCC_WARN_UNKNOWN_PRAGMAS = YES;
 				GCC_WARN_UNUSED_VALUE = NO;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				TEST_AFTER_BUILD = YES;
@@ -815,13 +810,11 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = NO;
 				GCC_WARN_UNKNOWN_PRAGMAS = YES;
 				GCC_WARN_UNUSED_VALUE = NO;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				TEST_AFTER_BUILD = YES;
 				WARNING_CFLAGS = "-fmacro-backtrace-limit=0";
@@ -862,7 +855,6 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = org.jspahrsummers.libextobjc.tests;
 				PRODUCT_NAME = "Logic Tests";
-				SDKROOT = macosx;
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -883,7 +875,6 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = org.jspahrsummers.libextobjc.tests;
 				PRODUCT_NAME = "Logic Tests";
-				SDKROOT = macosx;
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -908,7 +899,6 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = org.jspahrsummers.libextobjc.tests;
 				PRODUCT_NAME = "iOS Tests";
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -932,7 +922,6 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = org.jspahrsummers.libextobjc.tests;
 				PRODUCT_NAME = "iOS Tests";
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
