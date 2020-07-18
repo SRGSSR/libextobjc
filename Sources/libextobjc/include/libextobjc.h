@@ -6,7 +6,7 @@
 //
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for libextobjc.
 FOUNDATION_EXPORT double libextobjcVersionNumber;
@@ -15,7 +15,6 @@ FOUNDATION_EXPORT double libextobjcVersionNumber;
 FOUNDATION_EXPORT const unsigned char libextobjcVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import "PublicHeader.h>
-
 
 #import "metamacros.h"
 #import "EXTADT.h"
