@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "extobjc.h"
+#import "libextobjc.h"
 
 @interface EXTObjectiveCppCompileTest : XCTestCase
 

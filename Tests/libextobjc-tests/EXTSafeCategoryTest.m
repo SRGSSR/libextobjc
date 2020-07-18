@@ -21,15 +21,11 @@
 
 /*** category interface ***/
 @interface NSObject (TestExtensions)
-- (NSString *)description;
 - (NSString *)customDescription;
 @end
 
 /*** category implementation ***/
 @safecategory(NSObject, TestExtensions)
-- (NSString *)description {
-    return [self customDescription];
-}
 
 - (NSString *)customDescription {
     return @"NSObject(TestExtensions)";
