@@ -17,8 +17,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "libextobjc",
-            dependencies: []
+            name: "libextobjc"
         ),
         .testTarget(
             name: "libextobjc-tests",
