@@ -23,44 +23,13 @@ branch contains additional features that may be interesting, but are not
 considered stable or safe for production use. Check out the headers for more
 information.
 
-# Running tests
-
-To execute libextobjc's tests, first run `git submodule update --init --recursive`
-to bring in the [xcconfigs](https://github.com/jspahrsummers/xcconfigs) submodule,
-then open the project file and choose the desired test target.
-
 # Adding to your project
 
-If you want to add libextobjc as a dependency to an **application**, add the
-repository as a [submodule](http://git-scm.com/book/en/Git-Tools-Submodules),
-then include the source files you care about in your Xcode project.
+Use [Swift Package Manager](https://swift.org/package-manager) directly [within Xcode](https://developer.apple.com/documentation/xcode/adding_package_dependencies_to_your_app). You can also declare the library as a dependency of another one directly in the associated `Package.swift` manifest.
 
-If you want to add libextobjc as a dependency to a **framework or library**,
-prefer [subtree merging](http://git-scm.com/book/en/Git-Tools-Subtree-Merging),
-which will allow you to rename symbols to avoid conflicts, and make any tweaks
-you need to for your library.
+# Running tests
 
-To create a libextobjc subtree:
-
-```
-$ git remote add libextobjc https://github.com/jspahrsummers/libextobjc.git
-$ git fetch libextobjc
-$ git read-tree --prefix=External/ -u libextobjc/master
-$ git reset
-```
-
-Rename any symbols or change whatever you want, `git add` the specific files
-that you want in your library, and then add them to your Xcode project.
-
-To bring in upstream changes later:
-
-```
-$ git fetch -p libextobjc
-$ git merge -Xsubtree=External/ libextobjc/master
-$ git reset
-```
-
-Then, again, just add the changes you want.
+Open `Package.swift` and run the tests.
 
 # License
 
